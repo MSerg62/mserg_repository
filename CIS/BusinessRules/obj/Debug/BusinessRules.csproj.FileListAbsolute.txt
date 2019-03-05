@@ -4,3 +4,5 @@ C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.c
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.dll
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.pdb
+C:\Users\serge\www\mserg_repository\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.dll
+C:\Users\serge\www\mserg_repository\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.pdb
