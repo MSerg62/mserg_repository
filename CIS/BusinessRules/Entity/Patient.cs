@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessRules
+namespace BusinessRules.Entity
 {
-    public interface PatientEHCard
+    public interface Patient
     {
+        string Id { get; set; }
     }
 }

@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="EHCard\EHCard.cs" />
     <Compile Include="EHCard\PatientEHCard.cs" />
+    <Compile Include="Entity\Patient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
