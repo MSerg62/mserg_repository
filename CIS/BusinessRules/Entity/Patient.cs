@@ -13,6 +13,7 @@ namespace BusinessRules.Entity
         string FirstName { get; set; }
         string DocumentAddress { get; set; }
         string RealAddress { get; set; }
+        Gender GenderItem { get; set; }
         
     }
 }

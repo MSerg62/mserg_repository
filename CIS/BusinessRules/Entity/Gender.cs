@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessRules.Entity
 {
-    enum Gender
+    public enum Gender
     {
         Mans,Womens
     }

@@ -6,3 +6,8 @@ C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.d
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.pdb
 C:\Users\serge\www\mserg_repository\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.dll
 C:\Users\serge\www\mserg_repository\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.pdb
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
