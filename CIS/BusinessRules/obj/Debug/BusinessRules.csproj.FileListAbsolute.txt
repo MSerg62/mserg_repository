@@ -11,3 +11,14 @@ C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Pract
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\bin\Debug\BusinessRules.dll
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\bin\Debug\BusinessRules.pdb
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.dll
+C:\Users\serge\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.pdb

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessRules
+namespace BusinessRules.Enum
 {
-    public interface PatientEHCard
+    public enum MedicalDocumentType
     {
+        ReceivingFirstObservation, HospitalFirstObservation
     }
 }
