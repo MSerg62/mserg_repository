@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace BusinessRules
 {
-    /// <summary>
-    /// амбулаторная карта пациента
-    /// </summary>
-     public interface ACard
+    class ACardImp:ACard
     {
         /// <summary>
         /// идентификатор амбулаторной карты пациента
         /// </summary>
-        string Id { get; set; }
+       
+        string ACard.Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         /// <summary>
         /// коллекция медицинских документов
         /// </summary>
-        List<MedicalDocument> MedicalDocumentItems { get; set; }
+        
+        List<MedicalDocument> ACard.MedicalDocumentItems { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }

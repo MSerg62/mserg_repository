@@ -27,5 +27,15 @@ namespace BusinessRules
         /// амбулаторная карта пациента
         /// </summary>
         ACard ACardItem { get; set; }
+        /// <summary>
+        /// добавить амбулаторную карту
+        /// </summary>
+        /// <returns></returns>
+        bool AddACard();
+        /// <summary>
+        /// добавить историю болезни для стационарного случая
+        /// </summary>
+        /// <returns></returns>
+        bool AddHCard();
     }
 }
