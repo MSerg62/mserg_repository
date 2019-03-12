@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessRules.Enum
+namespace BusinessRules
 {
     public enum PersonIdDocument
     {

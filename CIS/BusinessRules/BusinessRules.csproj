@@ -47,12 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\ACard.cs" />
-    <Compile Include="Entity\HCard.cs" />
-    <Compile Include="Entity\MedicalDocument.cs" />
-    <Compile Include="Entity\PatientEHCard.cs" />
+    <Compile Include="Entities\ACard.cs" />
+    <Compile Include="Entities\HCard.cs" />
+    <Compile Include="Entities\MedicalDocument.cs" />
+    <Compile Include="Entities\PatientEHCard.cs" />
     <Compile Include="Enum\Gender.cs" />
-    <Compile Include="Entity\Patient.cs" />
+    <Compile Include="Entities\Patient.cs" />
     <Compile Include="Enum\MedicalDocumentType.cs" />
     <Compile Include="Enum\PersonIdDocument.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
