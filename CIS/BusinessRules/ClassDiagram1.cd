@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="BusinessRules.DataAccess.DataAccessBoundary" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess\DataAccessBoundary.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessRules.PatientEHCard" Collapsed="true">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAABAAAAAAAAAAAAAIAAAgAAYAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PatientEHCard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BusinessRules.Patient" Collapsed="true">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAgAAAAAAABIIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Patient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

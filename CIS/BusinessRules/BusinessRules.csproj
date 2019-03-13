@@ -37,6 +37,15 @@
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,17 +56,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\ACard.cs" />
-    <Compile Include="Entity\HCard.cs" />
-    <Compile Include="Entity\MedicalDocument.cs" />
-    <Compile Include="Entity\PatientEHCard.cs" />
+    <Compile Include="BusinessModules\EntitiesImp\ACardImp.cs" />
+    <Compile Include="BusinessModules\EntitiesImp\HCardImp.cs" />
+    <Compile Include="BusinessModules\EntitiesImp\PatientEHCardImp.cs" />
+    <Compile Include="BusinessModules\Registration\Registration.cs" />
+    <Compile Include="BusinessModules\Registration\RegistrationInputBoundary.cs" />
+    <Compile Include="BusinessModules\Registration\RegistrationInputData.cs" />
+    <Compile Include="BusinessModules\Registration\RegistrationOutputBoundary.cs" />
+    <Compile Include="BusinessModules\Registration\RegistrationOutputData.cs" />
+    <Compile Include="DataAccess\DataAccessBoundary.cs" />
+    <Compile Include="DataAccess\DataAccessor.cs" />
+    <Compile Include="Entities\ACard.cs" />
+    <Compile Include="Entities\HCard.cs" />
+    <Compile Include="Entities\MedicalDocument.cs" />
+    <Compile Include="Entities\PatientEHCard.cs" />
     <Compile Include="Enum\Gender.cs" />
-    <Compile Include="Entity\Patient.cs" />
+    <Compile Include="Entities\Patient.cs" />
     <Compile Include="Enum\MedicalDocumentType.cs" />
     <Compile Include="Enum\PersonIdDocument.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

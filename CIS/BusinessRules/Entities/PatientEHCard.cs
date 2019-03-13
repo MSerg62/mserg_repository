@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessRules.Entity
+namespace BusinessRules
 {
     /// <summary>
     /// Электронная карта пациента
@@ -27,5 +27,15 @@ namespace BusinessRules.Entity
         /// амбулаторная карта пациента
         /// </summary>
         ACard ACardItem { get; set; }
+        /// <summary>
+        /// добавить амбулаторную карту
+        /// </summary>
+        /// <returns></returns>
+        bool AddACard();
+        /// <summary>
+        /// добавить историю болезни для стационарного случая
+        /// </summary>
+        /// <returns></returns>
+        bool AddHCard();
     }
 }

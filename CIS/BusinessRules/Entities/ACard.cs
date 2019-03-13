@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BusinessRules.Enum;
 
-namespace BusinessRules.Entity
+namespace BusinessRules
 {
     /// <summary>
-    /// история болезни для случая госпитализации
+    /// амбулаторная карта пациента
     /// </summary>
-    public interface HCard
+     public interface ACard
     {
         /// <summary>
-        /// идентификатор истории болезни
+        /// идентификатор амбулаторной карты пациента
         /// </summary>
         string Id { get; set; }
         /// <summary>
