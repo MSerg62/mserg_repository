@@ -1,0 +1,27 @@
+CREATE TABLE [dbo].[Patient] (
+    [Id]              INT           IDENTITY (1, 1) NOT NULL,
+    [Name]            NVARCHAR (50) NOT NULL,
+    [FirstName]       NVARCHAR (50) NULL,
+    [BirthDate]       DATE          NULL,
+    [PatientId]       NVARCHAR (20) NULL,
+    [DocumentAddress] INT           NULL,
+    [RealAddress]     INT           NULL,
+    [GenderItem]      INT           NULL,
+    CONSTRAINT [PK_Patient] PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_Patient_RealAddress] FOREIGN KEY ([RealAddress]) REFERENCES [dbo].[Address] ([Id]),
+    CONSTRAINT [FK_Patient_Gender] FOREIGN KEY ([GenderItem]) REFERENCES [dbo].[Gender] ([Id]),
+    CONSTRAINT [FK_Patient_DocumentAddress] FOREIGN KEY ([DocumentAddress]) REFERENCES [dbo].[Address] ([Id])
+);
+
+
+CREATE TABLE [dbo].[Gender] (
+    [Id]         INT           IDENTITY (1, 1) NOT NULL,
+    [GenderName] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Address] (
+    [Id]          INT            IDENTITY (1, 1) NOT NULL,
+    [Description] NVARCHAR (MAX) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
