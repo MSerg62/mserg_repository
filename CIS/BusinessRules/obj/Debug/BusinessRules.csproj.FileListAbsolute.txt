@@ -22,5 +22,9 @@ C:\Users\serge\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.cs
 C:\Users\serge\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
 C:\Users\serge\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.dll
 C:\Users\serge\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.pdb
-C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\BusinessRules.dll.CodeAnalysisLog.xml
-C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\BusinessRules.dll.lastcodeanalysissucceeded
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
