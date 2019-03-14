@@ -176,3 +176,13 @@ C:\Users\serge\www\mserg_repository\CIS\WebCIS\obj\Debug\WebCIS.csproj.CoreCompi
 C:\Users\serge\www\mserg_repository\CIS\WebCIS\obj\Debug\WebCIS.csproj.CopyComplete
 C:\Users\serge\www\mserg_repository\CIS\WebCIS\obj\Debug\WebCIS.dll
 C:\Users\serge\www\mserg_repository\CIS\WebCIS\obj\Debug\WebCIS.pdb
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
