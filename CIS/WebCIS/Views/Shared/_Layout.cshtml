@@ -1,43 +1,277 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>@ViewBag.Title – приложение ASP.NET</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="~/images/favicon.ico">
+    <!-- App css -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/icons.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/metismenu.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/style.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+
+
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Имя приложения", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Домашняя страница", "Index", "Home")</li>
-                    <li>@Html.ActionLink("О программе", "About", "Home")</li>
-                    <li>@Html.ActionLink("Контакт", "Contact", "Home")</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year – приложение ASP.NET</p>
-        </footer>
-    </div>
+    <!-- Begin page -->
+    <div id="wrapper">
+        <!-- Top Bar Start -->
+        <div class="topbar">
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <a href="index.php" class="logo">
+                    <span>
+                        @*<img src="assets/images/logo.png" alt="" height="25">*@                    
+                    </span>
+                    @*<i>
+                        <img src="assets/images/logo_sm.png" alt="" height="28">
+                    </i>*@
+                </a>
+            </div>
+
+            <nav class="navbar-custom">
+
+                <ul class="list-inline float-right mb-0">
+                    @*<li class="list-inline-item dropdown notification-list">
+                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
+                           aria-haspopup="false" aria-expanded="false">
+                            <i class="dripicons-bell noti-icon"></i>
+                            <span class="badge badge-pink noti-icon-badge">4</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-arrow dropdown-lg" aria-labelledby="Preview">
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5><span class="badge badge-danger float-right">4</span>Сообщения</h5>
+                            </div>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-success"><i class="icon-bubble"></i></div>
+                                <p class="notify-details">Что-то прилетело<small class="text-muted">1 минуту назад</small></p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-danger"><i class="icon-bubble"></i></div>
+                                <p class="notify-details">Новое сообщение<small class="text-muted">7 минут назад</small></p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-danger"><i class="icon-bubble"></i></div>
+                                <p class="notify-details">Что-то случилось <b>серъезное!</b><small class="text-muted">10 мин назад</small></p>
+                            </a>
+
+                            <!-- All-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item notify-all">
+                                Посмотреть все
+                            </a>
+
+                        </div>
+                    </li>*@
+
+                    <li class="list-inline-item dropdown notification-list">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
+                           aria-haspopup="false" aria-expanded="false">
+                            @*<img src="assets/images/users/avatar-0.png" alt="user" class="rounded-circle">*@
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-dropdown " aria-labelledby="Preview">
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5 class="text-overflow"><small>Добро пожаловать!</small> </h5>
+                            </div>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="mdi mdi-account-circle"></i> <span>Мой профиль</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="mdi mdi-settings"></i> <span>Установки</span>
+                            </a>
+
+                            <!-- item-->
+                            <span class="dropdown-item notify-item"></span>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="list-inline menu-left mb-0">
+                    <li class="float-left">
+                        <button class="button-menu-mobile open-left waves-light waves-effect">
+                            <i class="dripicons-menu"></i>
+                        </button>
+                    </li>
+                    <li class="hide-phone app-search">
+                        <form role="search" class="">
+                            <input type="text" placeholder="Поиск..." class="form-control">
+                            <a href=""><i class="fa fa-search"></i></a>
+                        </form>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+        <!-- Top Bar End -->
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left side-menu">
+            <div class="slimscroll-menu" id="remove-scroll">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu" id="side-menu">
+                        <li class="menu-title"></li>
+                        <li>
+                            <a href="#"><i class="fi-help"></i> <span>Приемное отделение</span><span class="menu-arrow"></span></a>
+                            <ul class="nav-second-level" aria-expanded=false>
+                                <li><a href="">Регистрация</a></li>
+                            </ul>
+                        </li>
+                        
+
+
+                    </ul>
+
+                </div>
+                <!-- Sidebar -->
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="content-page">
+           
+            <!-- Start content -->
+            <div class="content">
+                <div class="container-fluid">
+
+                    @RenderBody()
+
+                </div> <!-- container -->
+
+            </div> <!-- content -->
+            <footer class="footer text-right"></footer>
+        </div>
+
+    </div>
+    <!-- jQuery  -->
+
+    <script src="~/Scripts/popper.min.js"></script><!-- Popper for Bootstrap -->
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/metisMenu.min.js"></script>
+    <script src="~/Scripts/waves.js"></script>
+    <script src="~/Scripts/jquery.slimscroll.js"></script>
+    <!-- App js -->
+    <script src="~/Scripts/jquery.core.js"></script>
+    <script src="~/Scripts/jquery.app.js"></script>
+    <script>
+
+
+        //$(document).ready(function () {
+        //    var conn = new WebSocket('ws://localhost:8080');
+        //    conn.onopen = function (e) {
+        //        alert("Connection established!");
+        //    };
+
+        //    conn.onmessage = function (e) {
+        //        alert(e.data);
+        //    };
+        //    //  $("#sens-humidity_tab").on('shown.bs.tab', function (e) {});
+        //    ///$("#sens-message_tab").on('shown.bs.tab', function (e) {});
+
+        //    $("#anestLocation").on("click", function () {
+        //        $.ajax({
+        //            type: "GET",
+        //            url: '<?php echo Url::toRoute(['site/devision']) ?>',
+        //success: function (data) {
+
+        //                $("#contentbody").html(data);
+        //            }
+        //        });
+        //    });
+        //    $("#consLocation").on("click", function () {
+        //        $.ajax({
+        //            type: "GET",
+        //            url: '<?php echo Url::toRoute(['site/devision2']) ?>',
+        //success: function (data) {
+
+        //                $("#contentbody").html(data);
+        //            }
+        //        });
+        //    });
+        //    $("#skladLocation1").on("click", function () {
+        //        $.ajax({
+        //            type: "GET",
+        //            url: '<?php echo Url::toRoute(['site/devision3']) ?>',
+        //success: function (data) {
+
+        //                $("#contentbody").html(data);
+        //            }
+        //        });
+        //    });
+
+        //    $("#skladLocation2").on("click", function () {
+        //        $.ajax({
+        //            type: "GET",
+        //            url: '<?php echo Url::toRoute(['site/devision4']) ?>',
+        //success: function (data) {
+
+        //                $("#contentbody").html(data);
+        //            }
+        //        });
+        //    });
+
+        //    $("#mc010102").on("click", function () {
+        //        $.ajax({
+        //            type: "GET",
+        //            url: '<?php echo Url::toRoute(['site/sensor']) ?>',
+        //success: function (data) {
+
+        //                $("#contentbody").html(data);
+        //            }
+        //        });
+
+        //    });
+
+        //});
+    </script>
+
 </body>
 </html>
