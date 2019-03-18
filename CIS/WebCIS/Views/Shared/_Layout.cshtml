@@ -13,6 +13,9 @@
 
     <!-- App favicon -->
     <link rel="shortcut icon" href="~/images/favicon.ico">
+    <!-- Plugin Css-->
+    <link rel="stylesheet" href="~/Scripts/plugins/magnific-popup/css/magnific-popup.css" />
+    <link rel="stylesheet" href="~/Scripts/plugins/jquery-datatables-editable/dataTables.bootstrap4.min.css" />
     <!-- App css -->
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/icons.css" rel="stylesheet" type="text/css" />
@@ -28,86 +31,20 @@
     <div id="wrapper">
         <!-- Top Bar Start -->
         <div class="topbar">
-
             <!-- LOGO -->
             <div class="topbar-left">
                 <a href="index.php" class="logo">
-                    <span>
-                        @*<img src="assets/images/logo.png" alt="" height="25">*@                    
-                    </span>
-                    @*<i>
-                        <img src="assets/images/logo_sm.png" alt="" height="28">
-                    </i>*@
+                    <span><img src="~/images/logo.png" alt="" height="25"></span>
+                    <i><img src="~/images/logo_sm.png" alt="" height="28"></i>
                 </a>
             </div>
 
             <nav class="navbar-custom">
 
                 <ul class="list-inline float-right mb-0">
-                    @*<li class="list-inline-item dropdown notification-list">
-                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
-                           aria-haspopup="false" aria-expanded="false">
-                            <i class="dripicons-bell noti-icon"></i>
-                            <span class="badge badge-pink noti-icon-badge">4</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right dropdown-arrow dropdown-lg" aria-labelledby="Preview">
-                            <!-- item-->
-                            <div class="dropdown-item noti-title">
-                                <h5><span class="badge badge-danger float-right">4</span>Сообщения</h5>
-                            </div>
+                  
 
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <div class="notify-icon bg-success"><i class="icon-bubble"></i></div>
-                                <p class="notify-details">Что-то прилетело<small class="text-muted">1 минуту назад</small></p>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <div class="notify-icon bg-danger"><i class="icon-bubble"></i></div>
-                                <p class="notify-details">Новое сообщение<small class="text-muted">7 минут назад</small></p>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <div class="notify-icon bg-danger"><i class="icon-bubble"></i></div>
-                                <p class="notify-details">Что-то случилось <b>серъезное!</b><small class="text-muted">10 мин назад</small></p>
-                            </a>
-
-                            <!-- All-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item notify-all">
-                                Посмотреть все
-                            </a>
-
-                        </div>
-                    </li>*@
-
-                    <li class="list-inline-item dropdown notification-list">
-                        <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
-                           aria-haspopup="false" aria-expanded="false">
-                            @*<img src="assets/images/users/avatar-0.png" alt="user" class="rounded-circle">*@
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right profile-dropdown " aria-labelledby="Preview">
-                            <!-- item-->
-                            <div class="dropdown-item noti-title">
-                                <h5 class="text-overflow"><small>Добро пожаловать!</small> </h5>
-                            </div>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="mdi mdi-account-circle"></i> <span>Мой профиль</span>
-                            </a>
-
-                            <!-- item-->
-                            <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                <i class="mdi mdi-settings"></i> <span>Установки</span>
-                            </a>
-
-                            <!-- item-->
-                            <span class="dropdown-item notify-item"></span>
-
-                        </div>
-                    </li>
+                  
 
                 </ul>
 
@@ -141,10 +78,10 @@
                         <li>
                             <a href="#"><i class="fi-help"></i> <span>Приемное отделение</span><span class="menu-arrow"></span></a>
                             <ul class="nav-second-level" aria-expanded=false>
-                                <li><a href="">Регистрация</a></li>
+                                <li><a href="/registration/newpatient">Регистрация</a></li>
                             </ul>
                         </li>
-                        
+
 
 
                     </ul>
@@ -177,7 +114,7 @@
 
 
         <div class="content-page">
-           
+
             <!-- Start content -->
             <div class="content">
                 <div class="container-fluid">
@@ -198,79 +135,87 @@
     <script src="~/Scripts/metisMenu.min.js"></script>
     <script src="~/Scripts/waves.js"></script>
     <script src="~/Scripts/jquery.slimscroll.js"></script>
+    <!-- Examples -->
+    <script src="~/Scripts/plugins/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Scripts/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/Scripts/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="~/Scripts/plugins/tiny-editable/mindmup-editabletable.js"></script>
+    @*<script src="~/Scripts/plugins/tiny-editable/numeric-input-example.js"></script>*@
     <!-- App js -->
     <script src="~/Scripts/jquery.core.js"></script>
     <script src="~/Scripts/jquery.app.js"></script>
+    <script src="~/Scripts/pages/jquery.datatables.init.js"></script>
+    
     <script>
 
 
-        //$(document).ready(function () {
-        //    var conn = new WebSocket('ws://localhost:8080');
-        //    conn.onopen = function (e) {
-        //        alert("Connection established!");
-        //    };
+                        //$(document).ready(function () {
+                        //    var conn = new WebSocket('ws://localhost:8080');
+                        //    conn.onopen = function (e) {
+                        //        alert("Connection established!");
+                        //    };
 
-        //    conn.onmessage = function (e) {
-        //        alert(e.data);
-        //    };
-        //    //  $("#sens-humidity_tab").on('shown.bs.tab', function (e) {});
-        //    ///$("#sens-message_tab").on('shown.bs.tab', function (e) {});
+                        //    conn.onmessage = function (e) {
+                        //        alert(e.data);
+                        //    };
+                        //    //  $("#sens-humidity_tab").on('shown.bs.tab', function (e) {});
+                        //    ///$("#sens-message_tab").on('shown.bs.tab', function (e) {});
 
-        //    $("#anestLocation").on("click", function () {
-        //        $.ajax({
-        //            type: "GET",
-        //            url: '<?php echo Url::toRoute(['site/devision']) ?>',
-        //success: function (data) {
+                        //    $("#anestLocation").on("click", function () {
+                        //        $.ajax({
+                        //            type: "GET",
+                        //            url: '<?php echo Url::toRoute(['site/devision']) ?>',
+                        //success: function (data) {
 
-        //                $("#contentbody").html(data);
-        //            }
-        //        });
-        //    });
-        //    $("#consLocation").on("click", function () {
-        //        $.ajax({
-        //            type: "GET",
-        //            url: '<?php echo Url::toRoute(['site/devision2']) ?>',
-        //success: function (data) {
+                        //                $("#contentbody").html(data);
+                        //            }
+                        //        });
+                        //    });
+                        //    $("#consLocation").on("click", function () {
+                        //        $.ajax({
+                        //            type: "GET",
+                        //            url: '<?php echo Url::toRoute(['site/devision2']) ?>',
+                        //success: function (data) {
 
-        //                $("#contentbody").html(data);
-        //            }
-        //        });
-        //    });
-        //    $("#skladLocation1").on("click", function () {
-        //        $.ajax({
-        //            type: "GET",
-        //            url: '<?php echo Url::toRoute(['site/devision3']) ?>',
-        //success: function (data) {
+                        //                $("#contentbody").html(data);
+                        //            }
+                        //        });
+                        //    });
+                        //    $("#skladLocation1").on("click", function () {
+                        //        $.ajax({
+                        //            type: "GET",
+                        //            url: '<?php echo Url::toRoute(['site/devision3']) ?>',
+                        //success: function (data) {
 
-        //                $("#contentbody").html(data);
-        //            }
-        //        });
-        //    });
+                        //                $("#contentbody").html(data);
+                        //            }
+                        //        });
+                        //    });
 
-        //    $("#skladLocation2").on("click", function () {
-        //        $.ajax({
-        //            type: "GET",
-        //            url: '<?php echo Url::toRoute(['site/devision4']) ?>',
-        //success: function (data) {
+                        //    $("#skladLocation2").on("click", function () {
+                        //        $.ajax({
+                        //            type: "GET",
+                        //            url: '<?php echo Url::toRoute(['site/devision4']) ?>',
+                        //success: function (data) {
 
-        //                $("#contentbody").html(data);
-        //            }
-        //        });
-        //    });
+                        //                $("#contentbody").html(data);
+                        //            }
+                        //        });
+                        //    });
 
-        //    $("#mc010102").on("click", function () {
-        //        $.ajax({
-        //            type: "GET",
-        //            url: '<?php echo Url::toRoute(['site/sensor']) ?>',
-        //success: function (data) {
+                        //    $("#mc010102").on("click", function () {
+                        //        $.ajax({
+                        //            type: "GET",
+                        //            url: '<?php echo Url::toRoute(['site/sensor']) ?>',
+                        //success: function (data) {
 
-        //                $("#contentbody").html(data);
-        //            }
-        //        });
+                        //                $("#contentbody").html(data);
+                        //            }
+                        //        });
 
-        //    });
+                        //    });
 
-        //});
+                        //});
     </script>
 
 </body>

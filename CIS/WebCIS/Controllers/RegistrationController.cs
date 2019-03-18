@@ -13,5 +13,9 @@ namespace WebCIS.Controllers
         {
             return View();
         }
+        public ActionResult NewPatient()
+        {
+            return View();
+        }
     }
 }

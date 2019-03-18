@@ -187,3 +187,14 @@ C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.Enterpris
 C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
 C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
 C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\BusinessRules.dll.config
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\BusinessRules.dll.config
