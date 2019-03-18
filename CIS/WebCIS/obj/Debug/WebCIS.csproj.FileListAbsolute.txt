@@ -186,3 +186,4 @@ C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.Enterpris
 C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
 C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
 C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\serge\www\mserg_repository\CIS\WebCIS\bin\BusinessRules.dll.config
