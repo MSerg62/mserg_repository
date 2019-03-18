@@ -51,9 +51,7 @@
 
 }(window.jQuery),
 
-/**
- * Components
- */
+
 function($) {
     "use strict";
 
@@ -61,7 +59,7 @@ function($) {
 
     //initializing tooltip
     Components.prototype.initTooltipPlugin = function() {
-        $.fn.tooltip && $('[data-toggle="tooltip"]').tooltip()
+        $.fn.tooltip && $('[data-toggle="tooltip"]').tooltip();
     },
 
     //initializing popover
