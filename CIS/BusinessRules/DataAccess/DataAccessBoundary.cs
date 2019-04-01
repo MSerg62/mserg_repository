@@ -9,6 +9,7 @@ namespace BusinessRules.DataAccess
     interface DataAccessBoundary
     {
         List<Patient> Patients { get; }
+        List<HCard> RegisteredHospitalCards(); 
         void RegisterNewPatient();
         void updatePatient(Patient patientData);
         void RemovePatient(Patient patientData);
