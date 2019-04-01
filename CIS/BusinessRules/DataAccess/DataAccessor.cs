@@ -28,6 +28,12 @@ namespace BusinessRules.DataAccess
 
         public List<Patient> Patients => throw new NotImplementedException();
 
+        public List<HCard> RegisteredHospitalCards()
+        {
+            List<HCard> hospitalCards = new List<HCard>() { };
+           
+            return hospitalCards;
+        }
         public Patient getPatient(string patientId)
         {
             throw new NotImplementedException();
