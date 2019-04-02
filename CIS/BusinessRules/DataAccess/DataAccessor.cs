@@ -79,7 +79,7 @@ namespace BusinessRules.DataAccess
         }
         private void FillRegistrationInfoList(ref List<RegistrationInfo> registeredPatients, IDataReader reader)
         {
-            HCard card = new HCardImp();
+            RegistrationInfo regInfo = new RegistrationInfoImp();
             while (reader.Read())
             {
                 Patient patient = new PatientImp();
@@ -95,8 +95,8 @@ namespace BusinessRules.DataAccess
                                                                           reader["Hous"].ToString(),
                                                                           reader["Flat"].ToString());
                 }
-                card.PatientData = patient;
-                hospitalCards.Add(card);
+                regInfo.PatientData = patient;
+                registeredPatients.Add(regInfo);
             }
 
         }
