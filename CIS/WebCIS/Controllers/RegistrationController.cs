@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BusinessRules.BusinessModules.Registration;
 
 
 namespace WebCIS.Controllers
@@ -12,7 +13,8 @@ namespace WebCIS.Controllers
         // GET: Registration
         public ActionResult Index()
         {
-           
+            RegistrationOutputBoundary regOutput = new RegistrationOutputData();
+            string regOutData=regOutput.GetRegisteredPatients();
             return View();
         }
         public ActionResult NewPatient()

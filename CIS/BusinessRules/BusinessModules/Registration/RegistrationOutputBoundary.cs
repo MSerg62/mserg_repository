@@ -10,6 +10,6 @@ namespace BusinessRules.BusinessModules.Registration
 {
     public interface RegistrationOutputBoundary
     {
-        List<RegistrationInfo> GetRegisteredPatients();
+        string GetRegisteredPatients();
     }
 }
