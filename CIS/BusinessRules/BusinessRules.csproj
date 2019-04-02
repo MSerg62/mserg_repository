@@ -61,6 +61,7 @@
     <Compile Include="BusinessModules\EntitiesImp\HCardImp.cs" />
     <Compile Include="BusinessModules\EntitiesImp\PatientEHCardImp.cs" />
     <Compile Include="BusinessModules\EntitiesImp\PatientImp.cs" />
+    <Compile Include="BusinessModules\EntitiesImp\RegistrationInfoImp.cs" />
     <Compile Include="BusinessModules\Registration\Registration.cs" />
     <Compile Include="BusinessModules\Registration\RegistrationInputBoundary.cs" />
     <Compile Include="BusinessModules\Registration\RegistrationInputData.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Entities\HCard.cs" />
     <Compile Include="Entities\MedicalDocument.cs" />
     <Compile Include="Entities\PatientEHCard.cs" />
+    <Compile Include="Entities\RegistrationInfo.cs" />
     <Compile Include="Enum\Gender.cs" />
     <Compile Include="Entities\Patient.cs" />
     <Compile Include="Enum\MedicalDocumentType.cs" />

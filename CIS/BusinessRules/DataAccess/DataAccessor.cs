@@ -7,6 +7,8 @@ using System.Data;
 using Microsoft.Practices.EnterpriseLibrary.Common;
 using Microsoft.Practices.EnterpriseLibrary.Data;
 using Utils;
+using BusinessRules.Entities;
+using BusinessRules.BusinessModules.EntitiesImp;
 
 namespace BusinessRules.DataAccess
 {
@@ -41,6 +43,16 @@ namespace BusinessRules.DataAccess
             }
             return hospitalCards;
         }
+        public List<RegistrationInfo> GetRegisteredPatients()
+        {
+            List<RegistrationInfo> registeredPatients = new List<RegistrationInfo>() {};
+            if (cisDB == null) Init();
+            using (System.Data.IDataReader reader = cisDB.ExecuteReader(CommandType.Text, "GetRegisteredHospitalCards"))
+            {
+                FillRegistrationInfoList(ref registeredPatients, reader);
+            }
+            return registeredPatients;
+        }
 
         private void FillHospitalCards(ref List<HCard> hospitalCards,IDataReader reader)
         {
@@ -63,6 +75,29 @@ namespace BusinessRules.DataAccess
                 card.PatientData = patient;
                 hospitalCards.Add(card);
             }         
+
+        }
+        private void FillRegistrationInfoList(ref List<RegistrationInfo> registeredPatients, IDataReader reader)
+        {
+            HCard card = new HCardImp();
+            while (reader.Read())
+            {
+                Patient patient = new PatientImp();
+                for (int i = 0; i < reader.FieldCount; i++)
+                {
+                    patient.Name = reader["Name"].ToString();
+                    patient.FirstName = reader["FirstName"] != null ? reader["FirstName"].ToString() : String.Empty;
+                    patient.BirthDate = UnsafeTypeCust.DbDateToDateTimeCust(reader["BirthDate"]);
+                    patient.DocumentAddress = String.Format("{0},{1},ул.{2},д.{3},кв.{4}",
+                                                                          reader["Post"].ToString(),
+                                                                          reader["City"].ToString(),
+                                                                          reader["Street"].ToString(),
+                                                                          reader["Hous"].ToString(),
+                                                                          reader["Flat"].ToString());
+                }
+                card.PatientData = patient;
+                hospitalCards.Add(card);
+            }
 
         }
 

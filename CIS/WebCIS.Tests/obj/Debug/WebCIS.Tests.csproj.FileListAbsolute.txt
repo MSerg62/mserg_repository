@@ -56,3 +56,5 @@ C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practi
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\BusinessRules.pdb
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\BusinessRules.dll.config
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Utils.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Utils.pdb
