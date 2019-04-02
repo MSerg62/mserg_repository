@@ -17,6 +17,10 @@ namespace BusinessRules
         /// </summary>
         string Id { get; set; }
         /// <summary>
+        /// данные пациента
+        /// </summary>
+        Patient PatientData { get; set; }
+        /// <summary>
         /// коллекция медицинских документов
         /// </summary>
         List<MedicalDocument> MedicalDocumentItems { get; set; }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace BusinessRules.DataAccess
 {
-    interface DataAccessBoundary
+    public interface DataAccessBoundary
     {
         List<Patient> Patients { get; }
-        List<HCard> RegisteredHospitalCards(); 
+        List<HCard> GetRegisteredHospitalCards();
         void RegisterNewPatient();
         void updatePatient(Patient patientData);
         void RemovePatient(Patient patientData);

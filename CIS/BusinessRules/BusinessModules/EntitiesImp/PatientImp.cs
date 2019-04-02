@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessRules.BusinessModules.EntitiesImp
+namespace BusinessRules
 {
-    class PatientImp : Patient
+    public class PatientImp : Patient
     {
         public string Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string PatientId { get; set; }
-        public string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public DateTime BirthDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string FirstName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Name { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string FirstName { get; set; }
         public PersonIdDocument PatientIdDocument { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string DocumentAddress { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string RealAddress { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public Gender GenderItem { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string DocumentAddress { get; set; }
+        public string RealAddress { get; set; }
+        public Gender GenderItem { get; set; }
     }
 }

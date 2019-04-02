@@ -198,3 +198,5 @@ C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.Enterpri
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\BusinessRules.dll.config
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Utils.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Utils.pdb

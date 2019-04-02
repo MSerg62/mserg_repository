@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCIS", "WebCIS\WebCIS.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCIS.Tests", "WebCIS.Tests\WebCIS.Tests.csproj", "{FB20AB37-7068-46A6-84DD-ED7E3CD87B7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{91E45DD2-9390-4D3B-81BE-1324CB4D300C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,12 +71,28 @@ Global
 		{FB20AB37-7068-46A6-84DD-ED7E3CD87B7B}.Release|x64.Build.0 = Release|Any CPU
 		{FB20AB37-7068-46A6-84DD-ED7E3CD87B7B}.Release|x86.ActiveCfg = Release|Any CPU
 		{FB20AB37-7068-46A6-84DD-ED7E3CD87B7B}.Release|x86.Build.0 = Release|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Debug|ARM.Build.0 = Debug|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Debug|x64.Build.0 = Debug|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Debug|x86.Build.0 = Debug|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Release|ARM.ActiveCfg = Release|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Release|ARM.Build.0 = Release|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Release|x64.ActiveCfg = Release|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Release|x64.Build.0 = Release|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Release|x86.ActiveCfg = Release|Any CPU
+		{91E45DD2-9390-4D3B-81BE-1324CB4D300C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
 		SolutionGuid = {E4FBFB52-A065-4BCF-9120-3D5304666CE9}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal

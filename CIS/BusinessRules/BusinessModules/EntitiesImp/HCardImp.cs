@@ -12,7 +12,10 @@ namespace BusinessRules
         /// идентификатор истории болезни
         /// </summary>
         string HCard.Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
+        /// <summary>
+        /// данные пациента
+        /// </summary>
+        Patient HCard.PatientData { get; set; }
         /// <summary>
         /// коллекция медицинских документов
         /// </summary>

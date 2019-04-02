@@ -43,3 +43,16 @@ C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\obj\Debug\WebCIS.Tests.csp
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\obj\Debug\WebCIS.Tests.csproj.CopyComplete
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\obj\Debug\WebCIS.Tests.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\obj\Debug\WebCIS.Tests.pdb
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\BusinessRules.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\BusinessRules.pdb
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\BusinessRules.dll.config
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
