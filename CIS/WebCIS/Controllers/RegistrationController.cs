@@ -15,7 +15,8 @@ namespace WebCIS.Controllers
         {
             RegistrationOutputBoundary regOutput = new RegistrationOutputData();
             string regOutData=regOutput.GetRegisteredPatients();
-            return View(regOutData);
+            ViewData["regoutData"] = regOutData;
+            return View();
         }
         public ActionResult NewPatient()
         {

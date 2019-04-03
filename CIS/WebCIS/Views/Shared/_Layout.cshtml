@@ -126,8 +126,10 @@
     <script>
         $(document).ready(function () {
 
-           /// var selectedDates = @Html.Raw(Json.Encode(regOutData));
-
+            var regoutData = @Html.Raw(Json.Encode(ViewData["regoutData"])) ;
+            var parseResult = JSON.parse(regoutData);
+            var regOutDataObject = parseResult[0];
+            alert(regOutDataObject.PatientData.BirthDate);
             $("#addToTable").click(function () {
                 window.location.href = "/registration/newpatient";
             });
