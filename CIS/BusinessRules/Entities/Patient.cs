@@ -12,6 +12,7 @@ namespace BusinessRules
         string Id { get; set; }
         string Name { get; set; }
         DateTime BirthDate { get; set; }
+        string BirthDateString { get; set; }
         string FirstName { get; set; }
         PersonIdDocument PatientIdDocument { get; set; }
         string DocumentAddress { get; set; }

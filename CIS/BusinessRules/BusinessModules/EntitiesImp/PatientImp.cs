@@ -12,6 +12,7 @@ namespace BusinessRules
         public string PatientId { get; set; }
         public string Name { get; set; }
         public DateTime BirthDate { get; set; }
+        public string BirthDateString { get; set; }
         public string FirstName { get; set; }
         public PersonIdDocument PatientIdDocument { get; set; }
         public string DocumentAddress { get; set; }

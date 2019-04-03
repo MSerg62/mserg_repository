@@ -129,7 +129,19 @@
             var regoutData = @Html.Raw(Json.Encode(ViewData["regoutData"])) ;
             var parseResult = JSON.parse(regoutData);
             var regOutDataObject = parseResult[0];
-            alert(regOutDataObject.PatientData.BirthDate);
+         //   alert(parseResult.length);//regOutDataObject.PatientData.BirthDate
+            for (i = 0; i < parseResult.length; i++) {
+               
+                $("#datatable-editable tbody").append('<tr class= "gradeA">'
+                    + '<td>'+ regOutDataObject.PatientData.Name +'</td>'
+                    + '<td>' + regOutDataObject.PatientData.FirstName + '</td>'
+                    + '<td>' + regOutDataObject.PatientData.BirthDateString+ '</td>'
+                    + '<td class="actions"><a href="#" class="on-default edit-row" data-toggle="tooltip" data-placement="top" title="" data-original-title="Edit"><i class="fa fa-pencil"></i></a>'
+                    + '<a href="#" class="on-default remove-row" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"><i class="fa fa-trash-o"></i></a>'
+                    + '<a href="#" class="hidden on-editing save-row" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save"><i class="fa fa-save"></i></a>'
+                    + '<a href="#" class="hidden on-editing cancel-row" data-toggle="tooltip" data-placement="top" title="" data-original-title="Cancel"><i class="fa fa-times"></i></a>'
+                    + '</td></tr>');
+            }
             $("#addToTable").click(function () {
                 window.location.href = "/registration/newpatient";
             });
