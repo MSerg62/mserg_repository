@@ -20,5 +20,10 @@ namespace Utils
             else
                 return String.Empty;
         }
+        public static long ToJavaScriptMilliseconds(DateTime dt)
+        {
+            long DatetimeMinTimeTicks =(new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).Ticks;
+            return (long)((dt.ToUniversalTime().Ticks - DatetimeMinTimeTicks) / 10000);
+        }
     }
 }

@@ -84,8 +84,6 @@ namespace BusinessRules.DataAccess
             while (reader.Read())
             {
                 Patient patient = new PatientImp();
-               // for (int i = 0; i < reader.FieldCount; i++)
-               // {
                     patient.Name = reader["Name"].ToString();
                     patient.FirstName = reader["FirstName"] != null ? reader["FirstName"].ToString() : String.Empty;
                     patient.BirthDate = UnsafeTypeCust.DbDateToDateTimeCust(reader["BirthDate"]);
@@ -95,8 +93,8 @@ namespace BusinessRules.DataAccess
                                                                           reader["Street"].ToString(),
                                                                           reader["Hous"].ToString(),
                                                                           reader["Flat"].ToString());
-               // }
-                patient.BirthDateString = String.Format("{0}.{1}.{2}", patient.BirthDate.Day, patient.BirthDate.Month, patient.BirthDate.Year); 
+                patient.BirthDateString = String.Format("{0}.{1}.{2}", patient.BirthDate.Day, patient.BirthDate.Month, patient.BirthDate.Year);
+                patient.BirthDateMsec = UnsafeTypeCust.ToJavaScriptMilliseconds(patient.BirthDate);
                 regInfo.PatientData = patient;
                 registeredPatients.Add(regInfo);
             }
