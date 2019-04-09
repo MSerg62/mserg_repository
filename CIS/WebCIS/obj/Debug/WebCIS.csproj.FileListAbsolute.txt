@@ -200,3 +200,4 @@ C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Microsoft.Practices.Enterpri
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\BusinessRules.dll.config
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Utils.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Utils.pdb
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\Newtonsoft.Json.pdb

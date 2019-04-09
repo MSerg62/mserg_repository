@@ -36,3 +36,6 @@ C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.p
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Utils.dll
 C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Utils.pdb
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Sergey\www\mserg_repository\CIS\BusinessRules\bin\Debug\Newtonsoft.Json.xml

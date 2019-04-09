@@ -7,6 +7,7 @@ using BusinessRules;
 using BusinessRules.Entities;
 using BusinessRules.DataAccess;
 using System.Web.Script.Serialization;
+using Newtonsoft.Json;
 
 namespace BusinessRules.BusinessModules.Registration
 {
@@ -16,9 +17,10 @@ namespace BusinessRules.BusinessModules.Registration
         {
              DataAccessBoundary dataAccessBoundary = new DataAccessor();
              List<RegistrationInfo> registeredPatients = dataAccessBoundary.GetRegisteredPatients();
-            var serializer = new JavaScriptSerializer();
-            var serializedResult = serializer.Serialize(registeredPatients);
-            return serializedResult.ToString();
+           // var serializer = new JavaScriptSerializer();
+          //  var serializedResult = serializer.Serialize(registeredPatients);
+            string json = JsonConvert.SerializeObject(registeredPatients, Formatting.Indented);
+            return json;// serializedResult.ToString();
 
         }
 
