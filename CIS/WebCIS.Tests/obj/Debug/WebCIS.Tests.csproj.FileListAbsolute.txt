@@ -58,3 +58,4 @@ C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\BusinessRules.dl
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Utils.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Utils.pdb
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS.Tests\bin\Debug\Newtonsoft.Json.pdb
