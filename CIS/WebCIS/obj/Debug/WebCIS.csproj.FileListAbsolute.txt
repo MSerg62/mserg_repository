@@ -217,7 +217,6 @@ C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\MsieJavaScriptEngine.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\React.Core.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\React.Web.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\React.Web.Mvc3.dll
-C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\VroomJs.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\WebActivatorEx.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\JSPool.xml
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\React.Core.xml
@@ -226,3 +225,6 @@ C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\React.Web.Mvc3.xml
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
 C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\AdvancedStringBuilder.dll
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\AdvancedStringBuilder.xml
+C:\Users\Sergey\www\mserg_repository\CIS\WebCIS\bin\JavaScriptEngineSwitcher.Core.xml
